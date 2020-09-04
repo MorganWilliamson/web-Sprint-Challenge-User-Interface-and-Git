@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* General Styling Rules */ 
+
 * {
     box-sizing: border-box;
 }
@@ -66,10 +68,14 @@ p {
     line-height: 1.4;
 }
 
+/*  Header Styling Rules */ 
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Top Content Styling Rules */
 
 .top-content {
     display: flex;
@@ -84,6 +90,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Content Styling Rules */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +120,8 @@ p {
     justify-content: center;
 }
 
+/* Bottom Content Styling Rules */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +135,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer Styling Rules */
 
 footer {
     width: 100%;
