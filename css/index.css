@@ -68,11 +68,32 @@ p {
     line-height: 1.4;
 }
 
-/*  Header Styling Rules */ 
-
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/*  Header Styling Rules */ 
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .logo{
+    margin: 5%;
+}
+
+.about{
+   background: red;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.aboutBanner{
+    padding: 2%;
+    display: block;
 }
 
 /* Top Content Styling Rules */
