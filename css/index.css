@@ -85,7 +85,7 @@ header nav a{
 }
 
 .about{
-   background: red;
+   background: blue;
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
@@ -94,6 +94,13 @@ header nav a{
 .aboutBanner{
     padding: 2%;
     display: block;
+}
+
+.intro{
+    padding: 3%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 /* Top Content Styling Rules */
@@ -181,6 +188,10 @@ header nav a{
     background: dodgerblue;
 }
 
+.grid{
+    background: red;
+}
+
 /* Bottom Content Styling Rules */
 
 .bottom-content {
@@ -197,6 +208,9 @@ header nav a{
     padding-right: 0;
 }
 
+.baseboard{
+    padding: 3% 0;
+}
 /* Footer Styling Rules */
 
 footer {
