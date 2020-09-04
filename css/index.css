@@ -188,8 +188,29 @@ header nav a{
     background: dodgerblue;
 }
 
+.grid div{
+    padding: 2%;
+}
+
 .grid{
-    background: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.point{
+    flex-flow: row wrap;
+    width: 50%;
+}
+
+.how, .places, .strategy, .collab{
+    border-bottom: 1px dashed black;
+}
+
+.grid button{
+    border: 2px solid black;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 1rem;
 }
 
 /* Bottom Content Styling Rules */
